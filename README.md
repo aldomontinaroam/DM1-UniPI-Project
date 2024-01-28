@@ -49,6 +49,8 @@ Below are the Python packages and modules used in the project, categorized by th
 **Other:**
 - `fim`: apriori, fpgrowth
 
+Final report (PDF) -> [ProjectReport](Project_Argento_Lattanzi_Montinaro.pdf)
+
 ## Results
 ### Clustering
 DBSCAN is unable to provide optimal clustering, despite having tested several choices of eps and minPts, because it results mainly in large clusters that include almost the entire dataset, then only noise points; even the hierarchical methods produce highly unbalanced clusters. **K-Means**, applied to a dataset with **selected features**, proved to be the only algorithm capable of separating some clusters in a balanced way with an acceptable silhouette value (0.51).
