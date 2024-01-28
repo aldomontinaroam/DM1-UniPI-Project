@@ -1,6 +1,7 @@
 
 # Spotify Tracks Dataset
 📚 Final project for the first module (Foundations) of the [Data Mining](https://esami.unipi.it/programma.php?c=60963&aa=2023&cid=341&did=13) course, [Università di Pisa](https://didattica.di.unipi.it/en/master-programme-in-data-science-and-business-informatics/).
+![images/Firefly 20240128124842.png]
 ## Dataset
 📊 The Spotify Tracks Dataset used in this study was provided by the lecturers and contains information about audio tracks available in the Spotify catalog. These tracks span 20 different genres, such as chicago-house, black-metal and breakbeat. Each track is described by essential details (track’s name, artist, album name, ...) and other features like its level of popularity within the Spotify catalog. The dataset also contains audio-derived features representing various aspects like danceability, energy, key, and loudness.
 ## Tasks
