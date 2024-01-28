@@ -1,0 +1,59 @@
+\documentclass[a4paper, twoside,openright]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,italian]{babel}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage[a4paper,top=3cm,bottom=3cm,left=2cm,right=2cm,heightrounded,bindingoffset=5mm]{geometry}
+\usepackage[fontsize=13pt]{scrextend}
+\raggedbottom
+\usepackage{tabularx,ragged2e,longtable}
+\usepackage{minted}
+\usepackage{cprotect}
+\usepackage{fancyvrb}
+\pagestyle{headings}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{subfig, subfigure}
+\captionsetup{font=footnotesize}
+\usepackage{comment}
+\usepackage{cutwin}
+\newcommand{\wrapfig}[1]{%
+  \begin{cutout}{0}{.5\textwidth}{0pt}{12}
+    \includegraphics[width=0.48\textwidth]{#1}
+  \end{cutout}
+}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage[table,xcdraw]{xcolor}
+%\setcounter{secnumdepth}{-1}
+%\geometry{a4paper,top=2cm,bottom=2cm,left=1.5cm,right=1.5cm,heightrounded,bindingoffset=5mm} %sistemiamo questi per decidere i bordi
+
+% Redefine chapter format
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\LARGE}
+
+% Adjust spacing
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+
+\begin{document}
+
+
+\selectlanguage{english} % Set the default language to English
+
+% input file frontespizio.tex
+\input{frontespizio}
+\pagenumbering{gobble} % remove page number on this page
+\tableofcontents
+\clearpage % end the page here
+\pagenumbering{arabic} % start numbering pages in the arabic style
+
+\input{DataUnderstanding}
+\input{Clustering}
+\input{Classification}
+\input{PatternMiningRegression}
+
+\end{document}
