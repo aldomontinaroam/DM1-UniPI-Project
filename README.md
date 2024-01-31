@@ -77,7 +77,7 @@ Our dataset predominantly consists of **non-explicit** tracks with **high volume
 
 - [Aldo Montinaro](https://github.com/aldomontinaroam)
 - [Pietro Argento](https://github.com/p-argento)
-- [Lorenzo Lattanzi](https://www.youtube.com/watch?v=qYSWWGz9Z6s)
+- [Lorenzo Lattanzi](https://github.com/98Lorenzo98)
 
 
 ## Acknowledgements
